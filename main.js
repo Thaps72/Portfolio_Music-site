@@ -4,7 +4,7 @@
             icon.onclick = function(){
             if(mySong.paused){
                 mySong.play ();
-                icon.src = "play/1.png";
+                icon.src = "1.png";
             }else{
                  mySong.pause();
                 icon.src = "play/play-button.png";
